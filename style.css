@@ -7,7 +7,7 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 8px 150px;
+    padding: 16px 150px;
     padding-bottom: 96px;
 }
 
@@ -44,6 +44,43 @@ body {
 img {
     max-width: 400px;
     height: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 32px;
+}
+
+.information-container {
+    display: flex;
+    padding: 8px 150px;
+    gap: 52px;
+    padding-bottom: 96px;
+}
+
+.information .subtext {
+    color:#1F2937;
+}
+
+.information img {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+    border-radius: 16px;
+    align-self: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
 }
 
 ul {
