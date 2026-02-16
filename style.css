@@ -50,6 +50,8 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 150px;
+    padding-bottom: 96px;
 }
 .information-header {
     font-size: 36px;
@@ -60,9 +62,7 @@ img {
 
 .information-container {
     display: flex;
-    padding: 8px 150px;
     gap: 52px;
-    padding-bottom: 96px;
 }
 
 .information .subtext {
@@ -81,6 +81,27 @@ img {
     display: flex;
     flex-direction: column;
     max-width: 200px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.source {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 ul {
